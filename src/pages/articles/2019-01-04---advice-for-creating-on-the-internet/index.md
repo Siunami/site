@@ -1,0 +1,41 @@
+---
+title: "Advice for creating on the internet"
+date: "2019-01-04"
+layout: post
+draft: false
+path: "/posts/advice-for-creating-on-the-internet/"
+tags:
+  - "internet"
+  - "notes"
+  - "making"
+  - "creating"
+description: "Creating anything on the internet has extremely high leverage. The internet turns a linear amount of work into an exponential amount of value."
+---
+
+![](lauren-mancke-60627-unsplash-1024x681.jpg)
+
+**Why create things online?**
+
+- Creating anything on the internet has extremely high leverage. The internet turns a linear amount of work into an exponential amount of value. Once something has been shared online, people can read, watch or experience what you’ve made at any time of the day whether you are awake or asleep. The number of people you can touch is huge.
+- When you build an audience online, it opens the doors wide open to new opportunities. People and organizations might reach out to you with unique opportunities to collaborate. Also, If you are creative with it, there are plenty of opportunities to monetize an audience.
+- Anything you create online and monetize becomes a revenue generating digital asset. When you have a steady stream of income coming from digital assets that you have created, you can afford to quit a job you don’t like. You can also make high risk high reward decisions knowing you’ll have these digital assets to fall back on. Ultimately, it increases the optionality you have in life.
+- Even if you don’t ever reach a wide audience, you build valuable skills. These skills will make you more employable.
+- Consistently creating things helps practice self discipline. This is a valuable skill in itself.
+- What you create becomes an easy way for people to get to know you better. Employers, friends and potential collaborators can all learn more about what you’re interested in. 
+- It’s also a fun digital archive of who you were and what you were interested in at any time. You can compare what you made in the past to now and see how you’ve changed.
+
+**Advice for getting started**
+
+- Don’t worry about being perfect. Creating anything is a learning process. You won’t get better unless you try and then reflect on it.
+- Be open to criticism. Those who point out your mistakes make you better! It’s like having a community of mentors teaching you.
+- Your unique perspective is valuable. It’s easy to think you have nothing unique to share. Your physical existence alone is unique and what you make in the world will serve as a record of it.
+- Growth takes time. While it can only takes one viral thing to build a large audience, chances are you won’t get that immediately or ever. Prepare for this and have the self discipline to continue creating even when no one is watching. 
+- Find internal motivation for creating. Focusing on money or other external motivators will quickly demotivate you. Growth takes time and you need an internal motivator that will persist when there are no external motivators present.
+
+Lastly, this may be obvious but the only way you can become better at something is to practice. I’ll leave you with a fictional story about two approaches to making pots.
+
+> The ceramics teacher announced on opening day that he was dividing the class into two groups. All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality.
+> 
+> His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the “quantity” group: fifty pounds of pots rated an “A”, forty pounds a “B”, and so on. Those being graded on “quality”, however, needed to produce only one pot — albeit a perfect one — to get an “A”.
+> 
+> Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity. It seems that while the “quantity” group was busily churning out piles of work — and learning from their mistakes — the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
