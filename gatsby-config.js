@@ -24,6 +24,10 @@ module.exports = {
       {
         label: 'Categories',
         path: '/categories/',
+      },
+      {
+        label: 'Wiki',
+        path: '/wiki/',
       }
     ],
     author: {
