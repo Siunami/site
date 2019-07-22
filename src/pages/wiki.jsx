@@ -21,26 +21,24 @@ class WikiTemplate extends React.Component {
 
 export default WikiTemplate
 
-
-
 export const pageQuery = graphql`
-query WikiQuery {
-  site {
-    siteMetadata {
-      title
-      subtitle
-      copyright
-      menu {
-        label
-        path
-      }
-      author {
-        name
-        email
-        twitter
-        github
-        rss
+  query q {
+    site {
+      siteMetadata {
+        title
+        subtitle
+        copyright
+        menu {
+          label
+          path
+        }
+        author {
+          name
+          email
+          twitter
+          github
+          rss
+        }
       }
     }
-  }
   }`
