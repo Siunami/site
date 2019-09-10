@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/Users/Siunami/Desktop/site/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/Users/Siunami/Desktop/matthewsiu.com/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[],"query":"\n          {\n            site {\n              siteMetadata {\n                url\n                title\n                description: subtitle\n              }\n            }\n          }\n        ","feeds":[{"query":"\n              {\n                allMarkdownRemark(\n                  limit: 1000,\n                  sort: { order: DESC, fields: [frontmatter___date] },\n                  filter: { frontmatter: { layout: { eq: \"post\" }, draft: { ne: true } } }\n                ) {\n                  edges {\n                    node {\n                      html\n                      fields {\n                        slug\n                      }\n                      frontmatter {\n                        title\n                        date\n                        layout\n                        draft\n                        description\n                      }\n                    }\n                  }\n                }\n              }\n            ","output":"/rss.xml"}]},
     },{
-      plugin: require('/Users/Siunami/Desktop/site/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/Siunami/Desktop/matthewsiu.com/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-73379983-2"},
     },{
-      plugin: require('/Users/Siunami/Desktop/site/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/Siunami/Desktop/matthewsiu.com/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["roboto:400,400i,500,700"]},
     },{
-      plugin: require('/Users/Siunami/Desktop/site/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/Users/Siunami/Desktop/matthewsiu.com/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/Siunami/Desktop/site/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/Siunami/Desktop/matthewsiu.com/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/Siunami/Desktop/site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/Siunami/Desktop/matthewsiu.com/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

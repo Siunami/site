@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
-import Sidebar from '../components/Sidebar'
 import { graphql } from 'gatsby'
+import WikiTemplateDetails from '../components/WikiTemplateDetails'
 
 class WikiTemplate extends React.Component {
     render() {
@@ -11,8 +11,7 @@ class WikiTemplate extends React.Component {
             <Layout>
                 <div>
                 <Helmet title="aasdfsf" />
-                <Sidebar {...this.props}/>
-                <p>asfasf</p>
+                <WikiTemplateDetails {...this.props} />
                 </div>
             </Layout>
         )
@@ -24,7 +23,7 @@ export default WikiTemplate
 
 
 export const pageQuery = graphql`
-query WikiQuery {
+query WikiTemplateQuery($slug: String) {
   site {
     siteMetadata {
       title
@@ -41,6 +40,20 @@ query WikiQuery {
         github
         rss
       }
+    }
+  }
+  markdownRemark(fields: { slug: { eq: $slug } }) {
+    id
+    html
+    fields {
+      tagSlugs
+      slug
+    }
+    frontmatter {
+      title
+      tags
+      date
+      description
     }
   }
   }`

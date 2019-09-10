@@ -10,7 +10,7 @@ exports.createPages = ({ graphql, actions }) => {
     const postTemplate = path.resolve('./src/templates/post-template.jsx')
     const pageTemplate = path.resolve('./src/templates/page-template.jsx')
     const tagTemplate = path.resolve('./src/templates/tag-template.jsx')
-    const wikiTemplate = path.resolve('./src/templates/wiki-template.jsx')
+    const recommendTemplate = path.resolve('./src/templates/recommend-template.jsx')
     const categoryTemplate = path.resolve(
       './src/templates/category-template.jsx'
     )
@@ -42,10 +42,18 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       _.each(result.data.allMarkdownRemark.edges, edge => {
-        if (_.get(edge, 'node.frontmatter.layout') === 'wiki') {
+        if (_.get(edge, 'node.frontmatter.layout') === 'recommend') {
+          console.log(edge.node.fields.slug)
           createPage({
             path: edge.node.fields.slug,
-            component: slash(wikiTemplate),
+            component: slash(recommendTemplate),
+            context: { slug: edge.node.fields.slug },
+          })
+        } else if (_.get(edge, 'node.frontmatter.layout') === 'wiki') {
+          console.log(edge.node.fields.slug)
+          createPage({
+            path: edge.node.fields.slug,
+            component: slash(recommendTemplate),
             context: { slug: edge.node.fields.slug },
           })
         } else if (_.get(edge, 'node.frontmatter.layout') === 'page') {

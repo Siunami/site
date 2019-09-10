@@ -1,0 +1,12 @@
+Wiki and Recommends generated pages both use recommend-template.jsx
+- In the future will create a separate wiki template. Needs to be able to import multiple md files.
+    - Need to think more about wiki template structure
+    - High level topics (right now, 3 sections)
+        - Notes
+            - On articles, etc. that I read about.
+        - separate md files for ideas in that topic
+            - Lists of interesting people
+            - Lists of anything
+            - Making connections between notes
+            - Slightly more cogent writing.
+        - Images
