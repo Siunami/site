@@ -18,16 +18,8 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'About me',
-        path: '/about/',
-      },
-      {
-        label: 'Categories',
-        path: '/categories/',
-      },
-      {
-        label: 'Wiki',
-        path: '/wiki/',
+        label: 'Now',
+        path: '/now/',
       }
     ],
     author: {
